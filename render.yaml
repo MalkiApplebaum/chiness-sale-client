@@ -1,8 +1,9 @@
-services:
+      services:
   - type: web
     name: client
     env: node
-    buildCommand: npm run build
-    startCommand: npm start
+    buildCommand: rm -rf node_modules && npm install
+    startCommand: npm start  
     cache:
       - path: /opt/render/project/node_modules
+
