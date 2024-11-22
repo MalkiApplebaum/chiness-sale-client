@@ -32,7 +32,9 @@
     "build": "react-scripts build --max_old_space_size=4096",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --legacy-peer-deps",
+    "preinstall": "npm ci || npm install"
+
   },
   "eslintConfig": {
     "extends": [
