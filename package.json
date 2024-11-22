@@ -53,6 +53,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "engines": {
+  "node": "16.x",
+  "npm": "7.x"
+}
+
   }
 }
