@@ -2,8 +2,8 @@
   - type: web
     name: client
     env: node
-    buildCommand: rm -rf node_modules && npm install
-    startCommand: npm start  
-    cache:
-      - path: /opt/render/project/node_modules
+    buildCommand: npm install --force && npm run build
+    startCommand: npm start
+    cache: false
+
 
